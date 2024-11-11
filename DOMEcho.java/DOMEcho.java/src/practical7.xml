@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:noNamespaceSchemaLocation="practical7.xsd">
+  <orderID>ORD12345</orderID>
+  <description>Books for winter reading</description>
+  <requestDate>2024-11-07</requestDate>
+  <lineItem>
+    <book>
+      <bookID>B001</bookID>
+      <bookName>The Science of Tomorrow</bookName>
+      <genre>science-fiction</genre>
+      <publishDate>2023-10-15</publishDate>
+      <author>
+        <firstName>Jane</firstName>
+        <lastName>Doe</lastName>
+        <bio>Expert in space technology</bio>
+      </author>
+      <author>
+        <firstName>John</firstName>
+        <lastName>Smith</lastName>
+        <bio>Award-winning sci-fi author</bio>
+        <penName>J.S. Galaxy</penName>
+      </author>
+    </book>
+    <quantity>2</quantity>
+    <price>25.50</price>
+  </lineItem>
+  <lineItem>
+    <book>
+      <bookID>B002</bookID>
+      <bookName>Mystery of the Ancient Ruins</bookName>
+      <genre>mystery</genre>
+      <publishDate>2021-06-20</publishDate>
+      <author>
+        <firstName>Alice</firstName>
+        <lastName>Wonder</lastName>
+        <bio>Archaeologist and novelist</bio>
+      </author>
+    </book>
+    <quantity>1</quantity>
+    <price>15.00</price>
+  </lineItem>
+</order>
